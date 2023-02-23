@@ -1,9 +1,9 @@
 from opencage.geocoder import OpenCageGeocode
+from apiKey import API_Key
 # import time
 
-key = 'bcd6b1bdf8694408b584ba1132a42fad'
 
-geoCoder = OpenCageGeocode(key)
+geoCoder = OpenCageGeocode(API_Key)
 
 cities_dict = {'cities': ['San Jose', 'San Francisco', 'Sunnyvale', 'Campbell','Berkeley', 'Oakland',
                           'Saratoga', 'Cupertino', 'Palo Alto', 'Los Altos', 'Milpitas', 'Fremont', 'Santa Clara',
